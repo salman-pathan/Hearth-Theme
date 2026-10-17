@@ -1,0 +1,22 @@
+{
+  "name": "hearth-theme",
+  "displayName": "Hearth Theme",
+  "description": "A warm, organic color theme for developers.",
+  "version": "0.1.0",
+  "publisher": "SalmanKhan",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hearth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hearth-color-theme.json"
+      }
+    ]
+  }
+}

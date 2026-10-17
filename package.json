@@ -1,0 +1,30 @@
+{
+  "name": "hearth-theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "check": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "generate": "tsx src/generate.ts",
+    "validate:zed": "node scripts/validate-zed.mjs",
+    "validate:lua": "luac -p extensions/neovim/lua/hearth/theme.lua",
+    "verify": "npm run check && npm run test && npm run generate && npm run validate:zed && npm run validate:lua",
+    "package:vscode": "npm run verify && cd extensions/vscode && npx vsce package --no-dependencies --out ../../hearth-theme.vsix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "colorjs.io": "^0.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@vscode/vsce": "^4.0.0",
+    "ajv": "^8.20.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

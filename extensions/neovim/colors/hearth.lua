@@ -1,0 +1,11 @@
+-- extensions/neovim/colors/hearth.lua
+
+vim.cmd("highlight clear")
+
+if vim.fn.exists("syntax_on") == 1 then
+	vim.cmd("syntax reset")
+end
+
+vim.g.colors_name = "hearth"
+
+require("hearth.theme").setup()

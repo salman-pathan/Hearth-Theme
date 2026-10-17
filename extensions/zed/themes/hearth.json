@@ -1,0 +1,89 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Hearth",
+  "author": "Hearth Theme Contributors",
+  "themes": [
+    {
+      "name": "Hearth",
+      "appearance": "dark",
+      "style": {
+        "background": "#231f19",
+        "foreground": "#dfd6c9",
+        "accent": "#ca9f6c",
+        "border": "#423c35",
+        "border.focused": "#ca9f6c",
+        "surface.background": "#302a24",
+        "elevated_surface.background": "#423c35",
+        "element.background": "#302a24",
+        "element.hover": "#423c35",
+        "element.selected": "#423c35",
+        "text": "#dfd6c9",
+        "text.muted": "#aca397",
+        "text.accent": "#ca9f6c",
+        "editor.background": "#231f19",
+        "editor.foreground": "#dfd6c9",
+        "editor.gutter.background": "#231f19",
+        "editor.line_number": "#aca397",
+        "editor.active_line_number": "#dfd6c9",
+        "editor.active_line.background": "#302a24",
+        "terminal.ansi.black": "#231f19",
+        "terminal.ansi.red": "#e49690",
+        "terminal.ansi.green": "#9bb88c",
+        "terminal.ansi.yellow": "#e6c8a7",
+        "terminal.ansi.blue": "#92b7b3",
+        "terminal.ansi.magenta": "#b9a6c2",
+        "terminal.ansi.cyan": "#92b7b3",
+        "terminal.ansi.white": "#dfd6c9",
+        "terminal.ansi.bright_black": "#aca397",
+        "terminal.ansi.bright_red": "#e49690",
+        "terminal.ansi.bright_green": "#9bb88c",
+        "terminal.ansi.bright_yellow": "#e6c8a7",
+        "terminal.ansi.bright_blue": "#92b7b3",
+        "terminal.ansi.bright_magenta": "#b9a6c2",
+        "terminal.ansi.bright_cyan": "#92b7b3",
+        "terminal.ansi.bright_white": "#dfd6c9",
+        "terminal.background": "#231f19",
+        "terminal.foreground": "#dfd6c9",
+        "syntax": {
+          "keyword": {
+            "color": "#b9a6c2"
+          },
+          "function": {
+            "color": "#ca9f6c"
+          },
+          "function.method": {
+            "color": "#ca9f6c"
+          },
+          "type": {
+            "color": "#92b7b3"
+          },
+          "type.builtin": {
+            "color": "#92b7b3"
+          },
+          "string": {
+            "color": "#9bb88c"
+          },
+          "number": {
+            "color": "#e6c8a7"
+          },
+          "comment": {
+            "color": "#aca397",
+            "font_style": "italic"
+          },
+          "variable": {
+            "color": "#dfd6c9"
+          },
+          "variable.parameter": {
+            "color": "#dfd6c9"
+          },
+          "property": {
+            "color": "#dfd6c9"
+          },
+          "namespace": {
+            "color": "#92b7b3"
+          }
+        }
+      }
+    }
+  ]
+}
