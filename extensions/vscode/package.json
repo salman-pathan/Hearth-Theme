@@ -10,6 +10,10 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salman-pathan/Hearth-Theme.git"
+  },
   "contributes": {
     "themes": [
       {
